@@ -3,6 +3,7 @@ doctype html
 html(lang='es-PE')
     head
         meta(charset='UTF-8')
+        meta(name="viewport" content="width=device-width, initial-scale=1")
         title Home
         link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
         link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
@@ -26,6 +27,32 @@ html(lang='es-PE')
                 a(href="#")
                     img(src="./assets/image/banner-header.jpg", alt="")
                 h1.text-center GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA
-                +redes
-                
+                .red-social.text-center
+                    +redes
+                    img(src="./assets/image/bullet.gif", alt="")
+                    span Hace 12 minutos
+                    img(src="./assets/image/bullet.gif", alt="")
+                    a(href="#") POLÍTICA
+                .row.text-left
+                    .col-md-6
+                        .principal-jne.sombra
+                            a(href="#") JNE impulsará campaña en favor de la aprobación de la Reforma Electoral
+                    .col-md-6
+                        .secundario.sombra
+                            a(href="#") Martín Belaunde Lossio: Empresas vinculadas al empresario contrataron por S/.3 000 millones | 
+                            a(href="#") FOTOS
+                        .futbol.sombra
+                            a(href="#") Sub 20: Perú vs. Paraguay: bicolor empató 1-1 y pasó al hexagonal final del Sudamericano | 
+                            a(href="#") VIDEO
+        section.slider
+            .container
+                .red
+                    .columnistas-text COLUMNISTAS
+                #myCarousel.carousel.slide(data-ride="carousel")
+                    ol.carousel-indicators
+                        li.active(data-target="#myCarousel" data-slide-to="0")
+                        li(data-target="#myCarousel" data-slide-to="1")
+                        li(data-target="#myCarousel" data-slide-to="2")
+                    .carousel-inner(role="listbox")
+                        .item.active
 
