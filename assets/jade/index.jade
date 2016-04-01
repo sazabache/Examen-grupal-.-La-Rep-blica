@@ -7,18 +7,17 @@ html(lang='es-PE')
         title Home
         link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
         link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
-        link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.min.css')
+        link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.css')
         link(rel='stylesheet', type='text/css', href='assets/css/bootstrap.min.css')
         link(rel='stylesheet', type='text/css', href='assets/css/slick.css')
         link(rel='stylesheet', type='text/css', href='assets/css/slick-theme.css')
-        link(rel='stylesheet', type='text/css', href='assets/css/main.css')
         script(src='http://code.jquery.com/jquery-1.11.2.min.js')
         script(src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
-        script(type='text/javascript', src='js/bootstrap.min.js')
-        script(type='text/javascript', src='js/slick.min.js')
-        script(type='text/javascript', src='js/bootstrap-hover-dropdown.min.js')
-        script(type='text/javascript', src='js/modernizr.custom.68172.js')
-        script(type='text/javascript', src='js/respond.js')
+        script(type='text/javascript', src='assets/js/bootstrap.min.js')
+        script(type='text/javascript', src='assets/js/slick.min.js')
+        script(type='text/javascript', src='assets/js/bootstrap-hover-dropdown.min.js')
+        script(type='text/javascript', src='assets/js/modernizr.custom.68172.js')
+        script(type='text/javascript', src='assets/js/respond.js')
    
     body
         include mixinmilu.jade
@@ -44,15 +43,92 @@ html(lang='es-PE')
                         .futbol.sombra
                             a(href="#") Sub 20: Perú vs. Paraguay: bicolor empató 1-1 y pasó al hexagonal final del Sudamericano | 
                             a(href="#") VIDEO
-        section.slider
+        //section.slider
             .container
                 .red
-                    .columnistas-text COLUMNISTAS
+                    .columnistas-text.text-center COLUMNISTAS
                 #myCarousel.carousel.slide(data-ride="carousel")
                     ol.carousel-indicators
-                        li.active(data-target="#myCarousel" data-slide-to="0")
+                        li(data-target="#myCarousel" data-slide-to="0")
                         li(data-target="#myCarousel" data-slide-to="1")
                         li(data-target="#myCarousel" data-slide-to="2")
                     .carousel-inner(role="listbox")
-                        .item.active
+                    a.left.carousel-control(href="#myCarousel", role="button", data-slide="prev")
+                        span.fa.fa-chevron-left(aria-hidden="true")
+                        span.sr-only Previous
+                    a.right.carousel-control(href="#myCarousel", role="button", data-slide="next")
+                        span.fa.fa-chevron-right(aria-hidden="true")
+                        span.sr-only Next
+
+        section.publicidad
+            .container
+                .row
+                    .col-md-8
+                        .row
+                            .col-md-6
+                                .titular
+                                    h4.text-center Mercado de Pases 2015
+                                    .image-1.sombra 
+                                        span.text-left Mercado de pases 2015: altas, bajas y rumores de los equipos peruanos
+                                    span Todo sobre 
+                                        a(href="#") Mercado de Pases 2015
+                            .col-md-6
+                                .titular
+                                    h4.text-center Régimen laboral juvenil
+                                    .image-titular.sombra 
+                                        span.text-left Ollanta Humala: Los que han perdido, más allá de tambores y panderetas, son 2 millones de jóvenes | 
+                                        a(href="#") VIDEO
+                                    span Todo sobre 
+                                        a(href="#") Régimen laboral juvenil
+                        .row
+                            .col-md-6
+                                .titular
+                                    h4.text-center Champions League
+                                    .image-titular.sombra 
+                                        span.text-left ¿Podrá el Real Madrid conseguir la 'Undécima'?
+                                    span Todo sobre
+                                        a(href="#") Champions League
+                            .col-md-6
+                                .titular
+                                    h4.text-center Super Bowl
+                                    .image-titular.sombra 
+                                        span.text-left Super Bowl XLIX: New England Patriots se consagró campeón de la NFL al ganar 28-24 a Seahawks | 
+                                        a(href="#") VIDEO
+                                    span Todo sobre 
+                                        a(href="#") Super Bowl
+
+                        span ÚLTIMAS NOTICIAS
+                        img(src="./assets/image/double-arrow-bottom.png", alt="")
+                        +titulares
+                        +titulares
+                        +titulares
+                        +roque
+                        +youtube
+                        +madrid
+                        +titulares
+                        +titulares
+                        +roque
+                        +youtube
+                        +madrid
+                        +titulares
+                        +titulares
+                        +madrid
+
+                    .col-md-4
+                        img(src="./assets/image/banner-aside-home.jpg", alt="")
+                        .bg-dots
+                            .suscribe
+                                img(src="./assets/image/img_sucribe.png", alt="")
+                                p.text-center
+                                    strong Suscríbete
+                                    span a nuestro boletín
+                                form
+                                    div.form-group
+                                        input.form-control(type="text")
+                                        button.btn.btn-default(type="submit") SUSCRIBIRSE
+
+                        +noticia("./assets/image/logo_aweita.jpg", "./assets/image/img_aweita.jpg", "Juan román Riquelme, el adiós al 'Último 10' de Argentina", "Lewis Carroll: un día como hoy nació el autor de 'Alicia en..'", "Juan román Riquelme, el adiós al 'Último 10' de Argentina", "Gameplay de 'Dead Kings', el descargable premium de 'Assassin's", "Awaita.pe")
+        
+
+
 

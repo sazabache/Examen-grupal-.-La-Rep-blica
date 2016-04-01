@@ -6,20 +6,33 @@
     <title>Home</title>
     <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.68172.js"></script>
-    <script type="text/javascript" src="js/respond.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="assets/js/modernizr.custom.68172.js"></script>
+    <script type="text/javascript" src="assets/js/respond.js"></script>
   </head>
   <body>
+    <!--mixin columnista-group
+    .item
+        +columnista("./assets/image/img-columnistas.jpg", "Mario Vargas LLosa", "Megarrenuncia apulpinante")
+    .item
+        +columnista("./assets/image/img_blogueros.jpg", "Augusto Álvarez Rodrich", "Respuesta a una derrota estridente")
+    .item
+        +columnista("./assets/image/img-columnistas.jpg", "Mario Vargas LLosa", "Megarrenuncia apulpinante")
+    .item
+        +columnista("./assets/image/img_blogueros.jpg", "Augusto Álvarez Rodrich", "Respuesta a una derrota estridente")
+    .item
+        +columnista("./assets/image/img-columnistas.jpg", "Mario Vargas LLosa", "Megarrenuncia apulpinante")
+    .item
+        +columnista("./assets/image/img_blogueros.jpg", "Mario Vargas LLosa", "Megarrenuncia apulpinante")
+    -->
     <section class="title">
       <div class="container"><a href="#"><img src="./assets/image/banner-header.jpg" alt=""></a>
         <h1 class="text-center">GUERRA EN LA MUNICIPALIDAD DE LIMA METROPOLITANA</h1>
@@ -36,19 +49,412 @@
         </div>
       </div>
     </section>
-    <section class="slider">
+    <!--section.slider
+    .container
+        .red
+            .columnistas-text.text-center COLUMNISTAS
+        #myCarousel.carousel.slide(data-ride="carousel")
+            ol.carousel-indicators
+                li(data-target="#myCarousel" data-slide-to="0")
+                li(data-target="#myCarousel" data-slide-to="1")
+                li(data-target="#myCarousel" data-slide-to="2")
+            .carousel-inner(role="listbox")
+            a.left.carousel-control(href="#myCarousel", role="button", data-slide="prev")
+                span.fa.fa-chevron-left(aria-hidden="true")
+                span.sr-only Previous
+            a.right.carousel-control(href="#myCarousel", role="button", data-slide="next")
+                span.fa.fa-chevron-right(aria-hidden="true")
+                span.sr-only Next
+    
+    -->
+    <section class="publicidad">
       <div class="container">
-        <div class="red">
-          <div class="columnistas-text">COLUMNISTAS</div>
-        </div>
-        <div id="myCarousel" data-ride="carousel" class="carousel slide">
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-          <div role="listbox" class="carousel-inner">
-            <div class="item active"></div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="titular">
+                  <h4 class="text-center">Mercado de Pases 2015</h4>
+                  <div class="image-1 sombra"> <span class="text-left">Mercado de pases 2015: altas, bajas y rumores de los equipos peruanos</span></div><span>Todo sobre <a href="#">Mercado de Pases 2015</a></span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="titular">
+                  <h4 class="text-center">Régimen laboral juvenil</h4>
+                  <div class="image-titular sombra"> <span class="text-left">Ollanta Humala: Los que han perdido, más allá de tambores y panderetas, son 2 millones de jóvenes | </span><a href="#">VIDEO</a></div><span>Todo sobre <a href="#">Régimen laboral juvenil</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="titular">
+                  <h4 class="text-center">Champions League</h4>
+                  <div class="image-titular sombra"> <span class="text-left">¿Podrá el Real Madrid conseguir la 'Undécima'?</span></div><span>Todo sobre<a href="#">Champions League</a></span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="titular">
+                  <h4 class="text-center">Super Bowl</h4>
+                  <div class="image-titular sombra"> <span class="text-left">Super Bowl XLIX: New England Patriots se consagró campeón de la NFL al ganar 28-24 a Seahawks | </span><a href="#">VIDEO</a></div><span>Todo sobre <a href="#">Super Bowl</a></span>
+                </div>
+              </div>
+            </div><span>ÚLTIMAS NOTICIAS</span><img src="./assets/image/double-arrow-bottom.png" alt="">
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#"><strong>VIDEO</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-youtube-play"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#"><strong>VIDEO</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-youtube-play"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#"><strong>VIDEO</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-youtube-play"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                <div class="row last-news">
+                  <p>Hace 1 hora 12 mins</p>
+                  <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                  <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                  </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                  <hr width="100%">
+                </div>
+                <div class="row last-news">
+                  <p>Hace 1 hora 12 mins</p>
+                  <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                  <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                  </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                  <hr width="100%">
+                </div>
+                <div class="row last-news">
+                  <p>Hace 1 hora 12 mins</p>
+                  <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                  <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                  </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                  <hr width="100%">
+                </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#"><strong>VIDEO</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-youtube-play"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#"><strong>VIDEO</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-youtube-play"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                <div class="row last-news">
+                  <p>Hace 1 hora 12 mins</p>
+                  <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                  <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                  </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                  <hr width="100%">
+                </div>
+                <div class="row last-news">
+                  <p>Hace 1 hora 12 mins</p>
+                  <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                  <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                  </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                  <hr width="100%">
+                </div>
+                <div class="row last-news">
+                  <p>Hace 1 hora 12 mins</p>
+                  <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                  <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                  </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                  <hr width="100%">
+                </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#"><strong>VIDEO</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-youtube-play"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Emma Watson protagonizará 'La bella y la bestia' | <a href="#"><strong>VIDEO</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-youtube-play"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Roque Benavides respalda proyecto Tía María y espera que Conga se socialice </h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Youtube: hombre finge ahogarse y su perro lo rescata | <a href="#"><strong>FOTOS</strong></a></h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">10</a><img src="./assets/image/bullet.gif" alt=""><a href="#">ESPECTÁCULOS</a><img src="./assets/image/bullet.gif" alt=""><a href="#"><i class="fa fa-camera"></i></a>
+                      <hr width="100%">
+                    </div>
+                    <div class="row last-news">
+                      <p>Hace 1 hora 12 mins</p>
+                      <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                      <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                      <div class="col-md-8">
+                        <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                      </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                      <hr width="100%">
+                    </div>
+                <div class="row last-news">
+                  <p>Hace 1 hora 12 mins</p>
+                  <h4>Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid</h4>
+                  <div class="col-md-4"><img src="./assets/image/img_news.jpg" alt=""></div>
+                  <div class="col-md-8">
+                    <p>Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...</p>
+                  </div><a href="#"><img src="./assets/image/s-icons/facebook.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/twitter.png" alt=""></a><a href="#"><img src="./assets/image/s-icons/g-plus.png" alt=""></a><img src="./assets/image/bullet.gif" alt=""><img src="./assets/image/ico_comment.png" alt=""><a href="#">0</a><img src="./assets/image/bullet.gif" alt=""><a href="#">AREQUIPA</a>
+                  <hr width="100%">
+                </div>
+          </div>
+          <div class="col-md-4"><img src="./assets/image/banner-aside-home.jpg" alt="">
+            <div class="bg-dots">
+              <div class="suscribe"><img src="./assets/image/img_sucribe.png" alt="">
+                <p class="text-center"><strong>Suscríbete</strong><span>a nuestro boletín</span></p>
+                <form>
+                  <div class="form-group">
+                    <input type="text" class="form-control">
+                    <button type="submit" class="btn btn-default">SUSCRIBIRSE</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+                <div class="box"><img src="./assets/image/logo_aweita.jpg" alt="" class="logo">
+                  <div class="row">
+                    <div class="col-md-5 borde-gris"><img src="./assets/image/img_aweita.jpg" alt=""></div>
+                    <div class="col-md-7">
+                      <p>Juan román Riquelme, el adiós al 'Último 10' de Argentina</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-5"><img src="./assets/image/img_aweita.jpg" alt=""></div>
+                    <div class="col-md-7">
+                      <p>Lewis Carroll: un día como hoy nació el autor de 'Alicia en..'</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-5"><img src="./assets/image/img_aweita.jpg" alt=""></div>
+                    <div class="col-md-7">
+                      <p>Juan román Riquelme, el adiós al 'Último 10' de Argentina</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-5"><img src="./assets/image/img_aweita.jpg" alt=""></div>
+                    <div class="col-md-7">
+                      <p>Gameplay de 'Dead Kings', el descargable premium de 'Assassin's</p>
+                    </div>
+                  </div>
+                  <p class="text-center">Más en<a href="#" class="color">Awaita.pe</a></p>
+                  <hr width=" 100px">
+                </div>
           </div>
         </div>
       </div>
