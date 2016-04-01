@@ -1,11 +1,112 @@
 mixin redes
-	a(href="#")
-		img(src="./assets/image/s-icons/facebook.png", alt="")
-	a(href="#")
-		img(src="./assets/image/s-icons/twitter.png", alt="")
-	a(href="#")
-		img(src="./assets/image/s-icons/g-plus.png", alt="")
-	img(src="./assets/image/bullet.gif", alt="")
-	span Hace 12 minutos
-	img(src="./assets/image/bullet.gif", alt="")
-	a(href="#") POLÍTICA
+    a(href="#")
+        img(src="./assets/image/s-icons/facebook.png", alt="")
+    a(href="#")
+        img(src="./assets/image/s-icons/twitter.png", alt="")
+    a(href="#")
+        img(src="./assets/image/s-icons/g-plus.png", alt="")
+mixin enlace(numero, nombre)
+    +redes
+    img(src="./assets/image/bullet.gif", alt="")
+    img(src="./assets/image/ico_comment.png", alt="")
+    a(href="#")= numero
+    img(src="./assets/image/bullet.gif", alt="")
+    a(href="#")= nombre
+mixin emma
+    .row.last-news
+        p Hace 1 hora 12 mins
+        h4 Emma Watson protagonizará 'La bella y la bestia' | 
+            a(href="#")
+                strong VIDEO
+        .col-md-4
+            img(src="./assets/image/img_news.jpg", alt="")
+        .col-md-8
+            p La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.
+        +enlace("10", "ESPECTÁCULOS")
+        img(src="./assets/image/bullet.gif", alt="")
+        a(href="#")
+            i.fa.fa-youtube-play
+        hr(width="100%")
+mixin roque
+    .row.last-news
+        p Hace 1 hora 12 mins
+        h4 Roque Benavides respalda proyecto Tía María y espera que Conga se socialice 
+        .col-md-4
+            img(src="./assets/image/img_news.jpg", alt="")
+        .col-md-8
+            p Zenaida Condori Contreras Arequipa para el presidente de la Compañía de Minas Buenaventura, Roque Benavides, el proyecto Tía María, que promueve Southern Perú, ya debe...
+        +enlace("0", "AREQUIPA")
+        hr(width="100%")
+mixin youtube
+    .row.last-news
+        p Hace 1 hora 12 mins
+        h4 Youtube: hombre finge ahogarse y su perro lo rescata | 
+            a(href="#")
+                strong FOTOS
+        .col-md-4
+            img(src="./assets/image/img_news.jpg", alt="")
+        .col-md-8
+            p La actriz Emma Watson fue confirmada por Disney como la protagonista de 'La bella y la bestia' con la versión de carne y hueso.
+        +enlace("10", "ESPECTÁCULOS")
+        img(src="./assets/image/bullet.gif", alt="")
+        a(href="#")
+            i.fa.fa-camera
+        hr(width="100%")
+
+mixin madrid
+    .row.last-news
+        p Hace 1 hora 12 mins
+        h4 Real Madrid: Cristiano ronaldo fue sancionado con dos partidos y sí estará contra el Atlético de Madrid
+        .col-md-4
+            img(src="./assets/image/img_news.jpg", alt="")
+        .col-md-8
+            p Después de la pésima actitud de Cristiano Ronaldo, al agredir a Edimar en el partido del cuadro madridista contra el Córdoba, el Comité de Competición a llegado a la...
+        +enlace("0", "AREQUIPA")
+        hr(width="100%")  
+mixin titulares
+    +emma
+    +roque
+    +youtube
+    +madrid
+mixin noticia(logo, imagen, texto, texto1, texto2, texto3, enlace)
+    .box
+        img.logo(src=logo, alt="")
+        .row
+            .col-md-5.borde-gris
+                img(src=imagen, alt="")
+            .col-md-7
+                p=texto
+        .row
+            .col-md-5
+                img(src=imagen, alt="")
+            .col-md-7
+                p=texto1
+        .row
+            .col-md-5
+                img(src=imagen, alt="")
+            .col-md-7
+                p=texto2
+        .row
+            .col-md-5
+                img(src=imagen, alt="")
+            .col-md-7
+                p=texto3
+        p.text-center Más en
+            a.color(href="#")= enlace
+        hr(width=" 100px")
+
+//mixin columnista-group
+    .item
+        +columnista("./assets/image/img-columnistas.jpg", "Mario Vargas LLosa", "Megarrenuncia apulpinante")
+    .item
+        +columnista("./assets/image/img_blogueros.jpg", "Augusto Álvarez Rodrich", "Respuesta a una derrota estridente")
+    .item
+        +columnista("./assets/image/img-columnistas.jpg", "Mario Vargas LLosa", "Megarrenuncia apulpinante")
+    .item
+        +columnista("./assets/image/img_blogueros.jpg", "Augusto Álvarez Rodrich", "Respuesta a una derrota estridente")
+    .item
+        +columnista("./assets/image/img-columnistas.jpg", "Mario Vargas LLosa", "Megarrenuncia apulpinante")
+    .item
+        +columnista("./assets/image/img_blogueros.jpg", "Mario Vargas LLosa", "Megarrenuncia apulpinante")
+
+    
