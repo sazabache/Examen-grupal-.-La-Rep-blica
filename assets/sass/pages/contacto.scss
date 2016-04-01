@@ -1,0 +1,32 @@
+@import "../helpers/_variables";
+header{
+	.header1{
+		background-color: $gris;
+		img{
+			width: 100%;
+			padding-bottom: 9px;
+		}
+		ul{
+			padding-left: 0;
+			list-style-type: none;
+			font-family: $titulo1;
+			font-size: 12.5px;
+			font-weight: 700;
+			color: $gristitle;
+			li{
+				display: inline-block;
+				padding-right: 10px;
+			}
+		}
+		.social{
+			.btn-boletin{
+				background-color: $redbutton;
+			}
+		}
+	}
+}
+
+.nopadd{
+	padding-left: 0;
+	padding-right: 0;
+}
