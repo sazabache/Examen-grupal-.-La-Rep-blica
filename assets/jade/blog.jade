@@ -3,20 +3,41 @@ doctype html
 html(lang='es-PE')
   head
     meta(charset='UTF-8')
-    title Home
+    title Blogs
+    meta(name='viewport', content='width=device-width, initial-scale=1')
     link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
     link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.min.css')
     link(rel='stylesheet', type='text/css', href='assets/css/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='assets/css/slick.css')
     link(rel='stylesheet', type='text/css', href='assets/css/slick-theme.css')
-    link(rel='stylesheet', type='text/css', href='assets/css/main.css')
+    link(rel='stylesheet', type='text/css', href='assets/css/blog.css')
     script(src='http://code.jquery.com/jquery-1.11.2.min.js')
     script(src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
-    script(type='text/javascript', src='js/bootstrap.min.js')
-    script(type='text/javascript', src='js/slick.min.js')
-    script(type='text/javascript', src='js/bootstrap-hover-dropdown.min.js')
-    script(type='text/javascript', src='js/modernizr.custom.68172.js')
-    script(type='text/javascript', src='js/respond.js')
+    script(type='text/javascript', src='assets/js/bootstrap.min.js')
+    script(type='text/javascript', src='assets/js/slick.min.js')
+    script(type='text/javascript', src='assets/js/bootstrap-hover-dropdown.min.js')
+    script(type='text/javascript', src='assets/js/modernizr.custom.68172.js')
+    script(type='text/javascript', src='assets/js/respond.js')
   body
-    //escribe tu código html aquí  
+    .container-fluid
+        .container
+            .row
+                secction.blogs
+                    h2 Blogs
+                    h4 LO ULTIMO EN BLOGS 
+                        i.fa.fa-angle-double-down
+            .row.bloques
+                .col-md-4
+                    .borde
+                        .tema.text-center
+                            p Lunes,14 de Julio de 2015
+                            h4 El gol de la muerte
+                        .fond-gris.media
+                            .media-left.media-middle
+                                    .box
+                                        a(href="#")
+                                            img.thumbnail.media-objet(src="assets/image/blog_avatar_01.jpg")
+                            .media-body
+                                h5.media-heading BLOG
+                                h4.media-heading LIBROS

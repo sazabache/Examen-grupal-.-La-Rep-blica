@@ -1,0 +1,61 @@
+.bloques {
+  padding: 0 2%;
+}
+
+.borde {
+  border: 2px solid #F2F2F2;
+  padding: 10px;
+}
+
+.borde .tema {
+  padding: 10% 0;
+}
+
+.borde .tema h5 {
+  font-weight: bold;
+}
+
+.fond-gris {
+  background-color: #F2F2F2;
+  padding: 20px 13px;
+}
+
+.fond-gris img {
+  margin-bottom: 0px;
+}
+
+.fond-gris img .thumbnail {
+  border-radius: 0px;
+}
+
+.box {
+  position: relative;
+  z-index: 10;
+}
+
+.box:before, .box:after {
+  position: absolute;
+  content: "";
+  bottom: 8px;
+  left: 0px;
+  top: 82%;
+  width: 53%;
+  background: #777;
+  box-shadow: 0 7px 6px #777;
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  z-index: -1;
+}
+
+.box:after {
+  transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  right: 0px;
+  left: auto;
+}
