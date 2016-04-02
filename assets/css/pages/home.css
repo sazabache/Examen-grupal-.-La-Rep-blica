@@ -1,0 +1,12 @@
+.title {
+  border: 1px solid black;
+}
+
+.title .row .img-publicidad {
+  width: 100%;
+}
+
+.title .row h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
