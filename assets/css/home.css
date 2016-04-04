@@ -116,8 +116,8 @@ a:hover {
 .slider .slider-col .slick-dots button {
   border-radius: 100%;
   background-color: #8C0000;
-  width: 18px;
-  height: 18px;
+  width: 17px;
+  height: 17px;
 }
 
 .slider .slider-col .slick-dots button:before {
