@@ -5,7 +5,7 @@
 @mixin t-shadow{
 	color: white;
 	font-weight: bolder;
-	text-shadow: 1px 1px $black;
+	text-shadow: 1px 2px 0 #000;
 }
 @mixin sombra{
 	-webkit-box-shadow: inset 0px -73px 103px -5px rgba(26,25,26,1);
@@ -54,11 +54,8 @@
 	}
 }
 @mixin border-image($size){
-	.no-margin{
-		padding-right: 0;
-		.borde-gris{
-			border: $size solid $gristxt;
-		}
+	.borde-gris{
+		border: $size solid $gristxt;
 	}
 }	
 @mixin especial-title($image){
@@ -79,11 +76,6 @@
 		background-color: rgba(255, 255, 255, 0.8);
 	}
 }
-@mixin borde-white{
-	border: 5px solid white;
-	margin: auto auto 5%;
-	box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.37);
-}
 @mixin enlace-red{
 	display: block;
 	color: #BA1414;
@@ -91,4 +83,8 @@
 	font-weight: 600;
 	margin: 4% auto;
 	font-family: $titulo1;
+	&:hover{
+		color: $red;
+	}
 }
+

@@ -14,6 +14,11 @@
 	font-size: 0.8em;
 	color: $gristxt;
 }
+a{
+	&:hover{
+		text-decoration: none;
+	}
+}
 .title{
 	.first-title{
 		padding: 0 15px;
@@ -40,7 +45,7 @@
 	}
 	.secundario{
 		background-image: url("../../assets/image/img_grid_secundario.jpg");
-		height: 40vh;
+		height: 40.2vh;
 		line-height: 28px;
 		margin: 4.5% 0%;
 		a{
@@ -56,17 +61,37 @@
 	}
 	.slider-col{
 		background-color: $gris;
-		padding: 5%;
-		.borde-white{
-			width: 80px;
-			@include borde-white;
-		}
+		padding: 6% 0% 2%;
 		a{
 			font-size: 0.8em;
 			color: $black;
+			&:hover{
+				text-decoration: underline;
+			}
 		}
 		p{
 			padding: 3% 5%;
+		}
+		.slick-prev,.slick-next {
+			&:before{
+				display: none;
+			}
+		}
+		.slick-dots {
+			position: relative;
+			bottom: 0;
+			button{
+				border-radius: 100%;
+				background-color: $guinda;
+				width: 18px;
+				height: 18px;
+				&:before{
+					content: " ";
+				}
+				&:active, &:focus{
+					background-color: #B9C0C6;
+				}
+			}
 		}
 	}
 }
@@ -199,6 +224,10 @@
 				font-weight: bolder;
 				margin-top: 4%;
 				border: none;
+				&:hover{
+					color: white; 
+					background: $red;
+				}
 			}
 		}
 	}
@@ -219,6 +248,10 @@
 			color: $black;
 			font-weight: bold;
 			line-height: 20px;
+			&:hover{
+				text-decoration: none;
+				color: $gristxt;
+			}
 		}
 	}
 }
@@ -316,10 +349,6 @@
 	.sidebar-title{
 		@include title($gristxt, 1.1em,12%);
 	}
-	.borde-white{
-		@include borde-white;
-		border: 2px solid white;
-	}
 	a{
 		@include enlace-red;
 		text-align: center;
@@ -329,6 +358,7 @@
 		.blog-texto{
 			padding: 2% 1%;
 			p{
+				margin-left: 5%;
 				margin-bottom: 0;
 				&:first-child{
 					font-size: 0.8em;
@@ -378,6 +408,10 @@
 		font-family: $titulo1;
 		font-weight: bolder;
 		width: 60%;
+		&:hover{
+			color: white; 
+			background: $red;
+		}
 	}
 	a{
 		@include enlace-red;
@@ -433,7 +467,88 @@
 	width: 60%;
 	display: block;
 	margin: 4% auto;
+	&:hover{
+		color: white; 
+		background: $red;
+	}
 }
 .enlace-red{
 	@include enlace-red;
+}
+
+.box-sombra {
+	position: relative;
+	z-index: 10;
+	width: 80px;
+	margin: auto;
+	img{
+		width: 80px;
+		border-radius: 0px;
+
+	}
+	&:before, &:after{
+		position:absolute;
+		content:"";
+		bottom: 8px;
+		left:0px;
+		top:82%;
+		width:53%;
+		background:#777;
+		box-shadow: 0 7px 6px #777;
+		transform:rotate(-15deg);
+		-webkit-transform:rotate(-15deg);
+		-moz-transform:rotate(-15deg);
+		-ms-transform:rotate(-15deg);
+		-o-transform:rotate(-15deg);
+		z-index:-1;
+	}
+	&:after{
+		transform:rotate(15deg);
+		-webkit-transform:rotate(15deg);
+		-moz-transform:rotate(15deg);
+		-ms-transform:rotate(15deg);
+		-o-transform:rotate(15deg);
+		right: 0px;
+		left: auto;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.title{
+		.first-title{
+			h1{
+				font-size: 4em;
+			}
+		}
+		.principal{
+			background-position: center;
+			height: 83vh;
+		}	
+	}
+	.destacado{
+		.last-news{
+			.image-width{
+				margin-top: 10%;
+			}
+		}
+	}
+	.edicion-sidebar{
+		text-align: center;
+		.row{
+			p{
+				margin: 2%;
+			}
+		}
+	}
+}
+@media (max-width: 767px){
+	.title{
+		.first-title{
+			h1{
+				font-size: 2em;
+			}
+		}
+		.principal{
+			background-position: center;
+		}	
+	}
 }
