@@ -48,11 +48,11 @@
           "height": 0,
           "width": 0
         },
-        "d7e84f4b": {
-          "id": "d7e84f4b",
-          "path": "columnista.html",
-          "output": "columnista.html",
-          "name": "columnista.html",
+        "58b090bf": {
+          "id": "58b090bf",
+          "path": "blog.html",
+          "output": "blog.html",
+          "name": "blog.html",
           "category": "JUST_WATCH",
           "customOutput": false,
           "imported": false,
@@ -161,22 +161,6 @@
           "parents": [],
           "type": "css"
         },
-        "101c3405": {
-          "id": "101c3405",
-          "path": "assets/css/columnista.css",
-          "output": "assets/css/columnista-dist.css",
-          "name": "columnista.css",
-          "category": "CSS",
-          "autoCompile": false,
-          "sourceMaps": false,
-          "compress": true,
-          "cssnext": false,
-          "autoprefixer": false,
-          "customOutput": false,
-          "imported": false,
-          "parents": [],
-          "type": "css"
-        },
         "7117dee0": {
           "id": "7117dee0",
           "path": "assets/css/font-awesome.css",
@@ -256,6 +240,50 @@
           "imported": false,
           "parents": [],
           "type": "css"
+        },
+        "69f146f0": {
+          "id": "69f146f0",
+          "path": "assets/html/columnistas.html",
+          "output": "assets/html/columnistas.html",
+          "name": "columnistas.html",
+          "category": "JUST_WATCH",
+          "customOutput": false,
+          "imported": false,
+          "parents": [],
+          "type": "html"
+        },
+        "840553c4": {
+          "id": "840553c4",
+          "path": "assets/html/index.html",
+          "output": "assets/html/index.html",
+          "name": "index.html",
+          "category": "JUST_WATCH",
+          "customOutput": false,
+          "imported": false,
+          "parents": [],
+          "type": "html"
+        },
+        "c482ca92": {
+          "id": "c482ca92",
+          "path": "assets/html/contacto.html",
+          "output": "assets/html/contacto.html",
+          "name": "contacto.html",
+          "category": "JUST_WATCH",
+          "customOutput": false,
+          "imported": false,
+          "parents": [],
+          "type": "html"
+        },
+        "0c3fbdb8": {
+          "id": "0c3fbdb8",
+          "path": "assets/html/mixinmilu.html",
+          "output": "assets/html/mixinmilu.html",
+          "name": "mixinmilu.html",
+          "category": "JUST_WATCH",
+          "customOutput": false,
+          "imported": false,
+          "parents": [],
+          "type": "html"
         },
         "d7bc85fc": {
           "id": "d7bc85fc",
@@ -543,6 +571,124 @@
           ],
           "type": "sass"
         },
+        "e8e7596b": {
+          "id": "e8e7596b",
+          "path": "assets/sass/layouts/_footer.scss",
+          "output": "assets/css/layouts/_footer.css",
+          "name": "_footer.scss",
+          "category": "CSS",
+          "autoCompile": false,
+          "autoprefixer": false,
+          "sourceMaps": false,
+          "libSass": true,
+          "compass": false,
+          "fullCompass": false,
+          "outputStyle": "expanded",
+          "customOutput": false,
+          "imported": true,
+          "parents": [
+            "d1e0fcd8"
+          ],
+          "type": "sass"
+        },
+        "3139a3b2": {
+          "id": "3139a3b2",
+          "path": "assets/sass/layouts/_header.scss",
+          "output": "assets/css/layouts/_header.css",
+          "name": "_header.scss",
+          "category": "CSS",
+          "autoCompile": false,
+          "autoprefixer": false,
+          "sourceMaps": false,
+          "libSass": true,
+          "compass": false,
+          "fullCompass": false,
+          "outputStyle": "expanded",
+          "customOutput": false,
+          "imported": true,
+          "parents": [
+            "d1e0fcd8"
+          ],
+          "type": "sass"
+        },
+        "d1145c62": {
+          "id": "d1145c62",
+          "path": "assets/sass/layouts/_sidebar.scss",
+          "output": "assets/css/layouts/_sidebar.css",
+          "name": "_sidebar.scss",
+          "category": "CSS",
+          "autoCompile": false,
+          "autoprefixer": false,
+          "sourceMaps": false,
+          "libSass": true,
+          "compass": false,
+          "fullCompass": false,
+          "outputStyle": "expanded",
+          "customOutput": false,
+          "imported": true,
+          "parents": [
+            "d1e0fcd8"
+          ],
+          "type": "sass"
+        },
+        "59d318b9": {
+          "id": "59d318b9",
+          "path": "assets/sass/pages/blog.scss",
+          "output": "assets/css/blog.css",
+          "name": "blog.scss",
+          "category": "CSS",
+          "autoCompile": true,
+          "autoprefixer": false,
+          "sourceMaps": false,
+          "libSass": true,
+          "compass": false,
+          "fullCompass": false,
+          "outputStyle": "expanded",
+          "customOutput": true,
+          "imported": false,
+          "parents": [],
+          "type": "sass"
+        },
+        "2126182f": {
+          "id": "2126182f",
+          "path": "assets/sass/pages/_contacto.scss",
+          "output": "assets/css/pages/_contacto.css",
+          "name": "_contacto.scss",
+          "category": "CSS",
+          "autoCompile": false,
+          "autoprefixer": false,
+          "sourceMaps": false,
+          "libSass": true,
+          "compass": false,
+          "fullCompass": false,
+          "outputStyle": "expanded",
+          "customOutput": false,
+          "imported": true,
+          "parents": [
+            "d1e0fcd8"
+          ],
+          "type": "sass"
+        },
+        "5d7c06e0": {
+          "id": "5d7c06e0",
+          "path": "assets/sass/pages/_home.scss",
+          "output": "assets/css/pages/_home.css",
+          "name": "_home.scss",
+          "category": "CSS",
+          "autoCompile": false,
+          "autoprefixer": false,
+          "sourceMaps": false,
+          "libSass": true,
+          "compass": false,
+          "fullCompass": false,
+          "outputStyle": "expanded",
+          "customOutput": false,
+          "imported": true,
+          "parents": [
+            "d1e0fcd8"
+          ],
+          "type": "sass"
+        },
         "cc55b703": {
           "id": "cc55b703",
           "path": "assets/sass/helpers/_mixinmilu.scss",
@@ -633,145 +779,8 @@
           "customOutput": false,
           "imported": true,
           "parents": [
-            "48f913e7",
             "d1e0fcd8",
-            "59d318b9"
-          ],
-          "type": "sass"
-        },
-        "e8e7596b": {
-          "id": "e8e7596b",
-          "path": "assets/sass/layouts/_footer.scss",
-          "output": "assets/css/layouts/_footer.css",
-          "name": "_footer.scss",
-          "category": "CSS",
-          "autoCompile": false,
-          "autoprefixer": false,
-          "sourceMaps": false,
-          "libSass": true,
-          "compass": false,
-          "fullCompass": false,
-          "outputStyle": "expanded",
-          "customOutput": false,
-          "imported": true,
-          "parents": [
-            "d1e0fcd8"
-          ],
-          "type": "sass"
-        },
-        "3139a3b2": {
-          "id": "3139a3b2",
-          "path": "assets/sass/layouts/_header.scss",
-          "output": "assets/css/layouts/_header.css",
-          "name": "_header.scss",
-          "category": "CSS",
-          "autoCompile": false,
-          "autoprefixer": false,
-          "sourceMaps": false,
-          "libSass": true,
-          "compass": false,
-          "fullCompass": false,
-          "outputStyle": "expanded",
-          "customOutput": false,
-          "imported": true,
-          "parents": [
-            "d1e0fcd8"
-          ],
-          "type": "sass"
-        },
-        "d1145c62": {
-          "id": "d1145c62",
-          "path": "assets/sass/layouts/_sidebar.scss",
-          "output": "assets/css/layouts/_sidebar.css",
-          "name": "_sidebar.scss",
-          "category": "CSS",
-          "autoCompile": false,
-          "autoprefixer": false,
-          "sourceMaps": false,
-          "libSass": true,
-          "compass": false,
-          "fullCompass": false,
-          "outputStyle": "expanded",
-          "customOutput": false,
-          "imported": true,
-          "parents": [
-            "d1e0fcd8"
-          ],
-          "type": "sass"
-        },
-        "59d318b9": {
-          "id": "59d318b9",
-          "path": "assets/sass/pages/blog.scss",
-          "output": "assets/css/blog.css",
-          "name": "blog.scss",
-          "category": "CSS",
-          "autoCompile": true,
-          "autoprefixer": false,
-          "sourceMaps": false,
-          "libSass": true,
-          "compass": false,
-          "fullCompass": false,
-          "outputStyle": "expanded",
-          "customOutput": true,
-          "imported": false,
-          "parents": [],
-          "type": "sass"
-        },
-        "48f913e7": {
-          "id": "48f913e7",
-          "path": "assets/sass/pages/columnistas.scss",
-          "output": "assets/css/columnista.css",
-          "name": "columnistas.scss",
-          "category": "CSS",
-          "autoCompile": true,
-          "autoprefixer": false,
-          "sourceMaps": false,
-          "libSass": true,
-          "compass": false,
-          "fullCompass": false,
-          "outputStyle": "expanded",
-          "customOutput": true,
-          "imported": false,
-          "parents": [],
-          "type": "sass"
-        },
-        "2126182f": {
-          "id": "2126182f",
-          "path": "assets/sass/pages/_contacto.scss",
-          "output": "assets/css/pages/_contacto.css",
-          "name": "_contacto.scss",
-          "category": "CSS",
-          "autoCompile": false,
-          "autoprefixer": false,
-          "sourceMaps": false,
-          "libSass": true,
-          "compass": false,
-          "fullCompass": false,
-          "outputStyle": "expanded",
-          "customOutput": false,
-          "imported": true,
-          "parents": [
-            "d1e0fcd8"
-          ],
-          "type": "sass"
-        },
-        "5d7c06e0": {
-          "id": "5d7c06e0",
-          "path": "assets/sass/pages/_home.scss",
-          "output": "assets/css/pages/_home.css",
-          "name": "_home.scss",
-          "category": "CSS",
-          "autoCompile": false,
-          "autoprefixer": false,
-          "sourceMaps": false,
-          "libSass": true,
-          "compass": false,
-          "fullCompass": false,
-          "outputStyle": "expanded",
-          "customOutput": false,
-          "imported": true,
-          "parents": [
-            "d1e0fcd8"
+            "48f913e7"
           ],
           "type": "sass"
         },
@@ -797,19 +806,6 @@
           "size": 3768185,
           "type": "png",
           "initialSize": 3768185,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
-        "ac63234f": {
-          "id": "ac63234f",
-          "path": "docs/contacto.fw.png",
-          "output": "docs/contacto.fw.png",
-          "name": "contacto.fw.png",
-          "category": "IMAGE",
-          "size": 510170,
-          "type": "png",
-          "initialSize": 510170,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -853,19 +849,6 @@
           "height": 0,
           "width": 0
         },
-        "ab1d7c9f": {
-          "id": "ab1d7c9f",
-          "path": "assets/image/archive-sidebar-bg.jpg",
-          "output": "assets/image/archive-sidebar-bg.jpg",
-          "name": "archive-sidebar-bg.jpg",
-          "category": "IMAGE",
-          "size": 1135,
-          "type": "jpg",
-          "initialSize": 1135,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
         "941f2486": {
           "id": "941f2486",
           "path": "assets/image/arrow_left.png",
@@ -875,6 +858,19 @@
           "size": 223,
           "type": "png",
           "initialSize": 223,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
+        "ab1d7c9f": {
+          "id": "ab1d7c9f",
+          "path": "assets/image/archive-sidebar-bg.jpg",
+          "output": "assets/image/archive-sidebar-bg.jpg",
+          "name": "archive-sidebar-bg.jpg",
+          "category": "IMAGE",
+          "size": 1135,
+          "type": "jpg",
+          "initialSize": 1135,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -931,6 +927,19 @@
           "height": 0,
           "width": 0
         },
+        "ac9f4a9d": {
+          "id": "ac9f4a9d",
+          "path": "assets/image/banner-header.jpg",
+          "output": "assets/image/banner-header.jpg",
+          "name": "banner-header.jpg",
+          "category": "IMAGE",
+          "size": 39260,
+          "type": "jpg",
+          "initialSize": 39260,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
         "d12361ad": {
           "id": "d12361ad",
           "path": "assets/image/aside-personaje-thumb-01.jpg",
@@ -957,19 +966,6 @@
           "height": 0,
           "width": 0
         },
-        "ac9f4a9d": {
-          "id": "ac9f4a9d",
-          "path": "assets/image/banner-header.jpg",
-          "output": "assets/image/banner-header.jpg",
-          "name": "banner-header.jpg",
-          "category": "IMAGE",
-          "size": 39260,
-          "type": "jpg",
-          "initialSize": 39260,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
         "ccbab983": {
           "id": "ccbab983",
           "path": "assets/image/banner_aside.jpg",
@@ -979,19 +975,6 @@
           "size": 111271,
           "type": "jpg",
           "initialSize": 111271,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
-        "cb3f52b0": {
-          "id": "cb3f52b0",
-          "path": "assets/image/banner_top.jpg",
-          "output": "assets/image/banner_top.jpg",
-          "name": "banner_top.jpg",
-          "category": "IMAGE",
-          "size": 76616,
-          "type": "jpg",
-          "initialSize": 76616,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1009,6 +992,19 @@
           "height": 0,
           "width": 0
         },
+        "8712f3aa": {
+          "id": "8712f3aa",
+          "path": "assets/image/blog_avatar_01.jpg",
+          "output": "assets/image/blog_avatar_01.jpg",
+          "name": "blog_avatar_01.jpg",
+          "category": "IMAGE",
+          "size": 2423,
+          "type": "jpg",
+          "initialSize": 2423,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
         "5a8bf69a": {
           "id": "5a8bf69a",
           "path": "assets/image/bg_trama_rayas.png",
@@ -1022,15 +1018,15 @@
           "height": 0,
           "width": 0
         },
-        "8712f3aa": {
-          "id": "8712f3aa",
-          "path": "assets/image/blog_avatar_01.jpg",
-          "output": "assets/image/blog_avatar_01.jpg",
-          "name": "blog_avatar_01.jpg",
+        "cb3f52b0": {
+          "id": "cb3f52b0",
+          "path": "assets/image/banner_top.jpg",
+          "output": "assets/image/banner_top.jpg",
+          "name": "banner_top.jpg",
           "category": "IMAGE",
-          "size": 2423,
+          "size": 76616,
           "type": "jpg",
-          "initialSize": 2423,
+          "initialSize": 76616,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1061,19 +1057,6 @@
           "height": 0,
           "width": 0
         },
-        "37daa0ed": {
-          "id": "37daa0ed",
-          "path": "assets/image/carlincatura_01.jpg",
-          "output": "assets/image/carlincatura_01.jpg",
-          "name": "carlincatura_01.jpg",
-          "category": "IMAGE",
-          "size": 157699,
-          "type": "jpg",
-          "initialSize": 157699,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
         "605c430c": {
           "id": "605c430c",
           "path": "assets/image/comments-avatar.jpg",
@@ -1087,6 +1070,19 @@
           "height": 0,
           "width": 0
         },
+        "37daa0ed": {
+          "id": "37daa0ed",
+          "path": "assets/image/carlincatura_01.jpg",
+          "output": "assets/image/carlincatura_01.jpg",
+          "name": "carlincatura_01.jpg",
+          "category": "IMAGE",
+          "size": 157699,
+          "type": "jpg",
+          "initialSize": 157699,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
         "fe7cfc7a": {
           "id": "fe7cfc7a",
           "path": "assets/image/contacto_submit_btn.jpg",
@@ -1096,19 +1092,6 @@
           "size": 2074,
           "type": "jpg",
           "initialSize": 2074,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
-        "d70a82cb": {
-          "id": "d70a82cb",
-          "path": "assets/image/disqus.jpg",
-          "output": "assets/image/disqus.jpg",
-          "name": "disqus.jpg",
-          "category": "IMAGE",
-          "size": 16394,
-          "type": "jpg",
-          "initialSize": 16394,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1135,6 +1118,19 @@
           "size": 26193,
           "type": "jpg",
           "initialSize": 26193,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
+        "d70a82cb": {
+          "id": "d70a82cb",
+          "path": "assets/image/disqus.jpg",
+          "output": "assets/image/disqus.jpg",
+          "name": "disqus.jpg",
+          "category": "IMAGE",
+          "size": 16394,
+          "type": "jpg",
+          "initialSize": 16394,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1230,6 +1226,19 @@
           "height": 0,
           "width": 0
         },
+        "d3c4f84c": {
+          "id": "d3c4f84c",
+          "path": "assets/image/img_author_columnista.jpg",
+          "output": "assets/image/img_author_columnista.jpg",
+          "name": "img_author_columnista.jpg",
+          "category": "IMAGE",
+          "size": 4576,
+          "type": "jpg",
+          "initialSize": 4576,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
         "9572bd64": {
           "id": "9572bd64",
           "path": "assets/image/img_aside_author.jpg",
@@ -1252,19 +1261,6 @@
           "size": 4091,
           "type": "jpg",
           "initialSize": 4091,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
-        "d3c4f84c": {
-          "id": "d3c4f84c",
-          "path": "assets/image/img_author_columnista.jpg",
-          "output": "assets/image/img_author_columnista.jpg",
-          "name": "img_author_columnista.jpg",
-          "category": "IMAGE",
-          "size": 4576,
-          "type": "jpg",
-          "initialSize": 4576,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1295,19 +1291,6 @@
           "height": 0,
           "width": 0
         },
-        "32b7abe9": {
-          "id": "32b7abe9",
-          "path": "assets/image/img_carlincatura_sd.jpg",
-          "output": "assets/image/img_carlincatura_sd.jpg",
-          "name": "img_carlincatura_sd.jpg",
-          "category": "IMAGE",
-          "size": 87292,
-          "type": "jpg",
-          "initialSize": 87292,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
         "653b1c1f": {
           "id": "653b1c1f",
           "path": "assets/image/img_editorial_text.jpg",
@@ -1321,15 +1304,15 @@
           "height": 0,
           "width": 0
         },
-        "010511d8": {
-          "id": "010511d8",
-          "path": "assets/image/img_especiales.jpg",
-          "output": "assets/image/img_especiales.jpg",
-          "name": "img_especiales.jpg",
+        "32b7abe9": {
+          "id": "32b7abe9",
+          "path": "assets/image/img_carlincatura_sd.jpg",
+          "output": "assets/image/img_carlincatura_sd.jpg",
+          "name": "img_carlincatura_sd.jpg",
           "category": "IMAGE",
-          "size": 64113,
+          "size": 87292,
           "type": "jpg",
-          "initialSize": 64113,
+          "initialSize": 87292,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1347,15 +1330,15 @@
           "height": 0,
           "width": 0
         },
-        "aedcd9ca": {
-          "id": "aedcd9ca",
-          "path": "assets/image/img_fotodes.jpg",
-          "output": "assets/image/img_fotodes.jpg",
-          "name": "img_fotodes.jpg",
+        "010511d8": {
+          "id": "010511d8",
+          "path": "assets/image/img_especiales.jpg",
+          "output": "assets/image/img_especiales.jpg",
+          "name": "img_especiales.jpg",
           "category": "IMAGE",
-          "size": 10491,
+          "size": 64113,
           "type": "jpg",
-          "initialSize": 10491,
+          "initialSize": 64113,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1386,15 +1369,15 @@
           "height": 0,
           "width": 0
         },
-        "c7366ee9": {
-          "id": "c7366ee9",
-          "path": "assets/image/img_grid_principal.jpg",
-          "output": "assets/image/img_grid_principal.jpg",
-          "name": "img_grid_principal.jpg",
+        "aedcd9ca": {
+          "id": "aedcd9ca",
+          "path": "assets/image/img_fotodes.jpg",
+          "output": "assets/image/img_fotodes.jpg",
+          "name": "img_fotodes.jpg",
           "category": "IMAGE",
-          "size": 144230,
+          "size": 10491,
           "type": "jpg",
-          "initialSize": 144230,
+          "initialSize": 10491,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1438,15 +1421,15 @@
           "height": 0,
           "width": 0
         },
-        "e84a3c5f": {
-          "id": "e84a3c5f",
-          "path": "assets/image/img_impreso_sd_politica_01.jpg",
-          "output": "assets/image/img_impreso_sd_politica_01.jpg",
-          "name": "img_impreso_sd_politica_01.jpg",
+        "c7366ee9": {
+          "id": "c7366ee9",
+          "path": "assets/image/img_grid_principal.jpg",
+          "output": "assets/image/img_grid_principal.jpg",
+          "name": "img_grid_principal.jpg",
           "category": "IMAGE",
-          "size": 81345,
+          "size": 144230,
           "type": "jpg",
-          "initialSize": 81345,
+          "initialSize": 144230,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1464,19 +1447,6 @@
           "height": 0,
           "width": 0
         },
-        "cada4fb3": {
-          "id": "cada4fb3",
-          "path": "assets/image/img_impreso_sd_prominent.jpg",
-          "output": "assets/image/img_impreso_sd_prominent.jpg",
-          "name": "img_impreso_sd_prominent.jpg",
-          "category": "IMAGE",
-          "size": 148098,
-          "type": "jpg",
-          "initialSize": 148098,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
         "758b6ebb": {
           "id": "758b6ebb",
           "path": "assets/image/img_infografia_especiales.jpg",
@@ -1490,6 +1460,19 @@
           "height": 0,
           "width": 0
         },
+        "e84a3c5f": {
+          "id": "e84a3c5f",
+          "path": "assets/image/img_impreso_sd_politica_01.jpg",
+          "output": "assets/image/img_impreso_sd_politica_01.jpg",
+          "name": "img_impreso_sd_politica_01.jpg",
+          "category": "IMAGE",
+          "size": 81345,
+          "type": "jpg",
+          "initialSize": 81345,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
         "23c46231": {
           "id": "23c46231",
           "path": "assets/image/img_logo_fixed.png",
@@ -1499,6 +1482,19 @@
           "size": 1754,
           "type": "png",
           "initialSize": 1754,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
+        "cada4fb3": {
+          "id": "cada4fb3",
+          "path": "assets/image/img_impreso_sd_prominent.jpg",
+          "output": "assets/image/img_impreso_sd_prominent.jpg",
+          "name": "img_impreso_sd_prominent.jpg",
+          "category": "IMAGE",
+          "size": 148098,
+          "type": "jpg",
+          "initialSize": 148098,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1854,19 +1850,6 @@
           "height": 0,
           "width": 0
         },
-        "80b1bc0e": {
-          "id": "80b1bc0e",
-          "path": "assets/image/noticias-relacionadas-image-slider-thumb.jpg",
-          "output": "assets/image/noticias-relacionadas-image-slider-thumb.jpg",
-          "name": "noticias-relacionadas-image-slider-thumb.jpg",
-          "category": "IMAGE",
-          "size": 18239,
-          "type": "jpg",
-          "initialSize": 18239,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
         "1c12ce52": {
           "id": "1c12ce52",
           "path": "assets/image/post-img-sample.jpg",
@@ -1880,28 +1863,15 @@
           "height": 0,
           "width": 0
         },
-        "5bda4bb8": {
-          "id": "5bda4bb8",
-          "path": "assets/image/publi-1.jpg",
-          "output": "assets/image/publi-1.jpg",
-          "name": "publi-1.jpg",
+        "80b1bc0e": {
+          "id": "80b1bc0e",
+          "path": "assets/image/noticias-relacionadas-image-slider-thumb.jpg",
+          "output": "assets/image/noticias-relacionadas-image-slider-thumb.jpg",
+          "name": "noticias-relacionadas-image-slider-thumb.jpg",
           "category": "IMAGE",
-          "size": 87080,
+          "size": 18239,
           "type": "jpg",
-          "initialSize": 87080,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
-        "96a352d9": {
-          "id": "96a352d9",
-          "path": "assets/image/publi-2.jpg",
-          "output": "assets/image/publi-2.jpg",
-          "name": "publi-2.jpg",
-          "category": "IMAGE",
-          "size": 98075,
-          "type": "jpg",
-          "initialSize": 98075,
+          "initialSize": 18239,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -1958,19 +1928,6 @@
           "height": 0,
           "width": 0
         },
-        "d746d056": {
-          "id": "d746d056",
-          "path": "assets/image/title-before-border-dots.jpg",
-          "output": "assets/image/title-before-border-dots.jpg",
-          "name": "title-before-border-dots.jpg",
-          "category": "IMAGE",
-          "size": 1217,
-          "type": "jpg",
-          "initialSize": 1217,
-          "optimized": false,
-          "height": 0,
-          "width": 0
-        },
         "00143ab2": {
           "id": "00143ab2",
           "path": "assets/image/title-before-border.jpg",
@@ -1980,6 +1937,19 @@
           "size": 1195,
           "type": "jpg",
           "initialSize": 1195,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
+        "d746d056": {
+          "id": "d746d056",
+          "path": "assets/image/title-before-border-dots.jpg",
+          "output": "assets/image/title-before-border-dots.jpg",
+          "name": "title-before-border-dots.jpg",
+          "category": "IMAGE",
+          "size": 1217,
+          "type": "jpg",
+          "initialSize": 1217,
           "optimized": false,
           "height": 0,
           "width": 0
@@ -2114,49 +2084,89 @@
           "height": 0,
           "width": 0
         },
-        "58b090bf": {
-          "id": "58b090bf",
-          "path": "blog.html",
-          "output": "blog.html",
-          "name": "blog.html",
+        "d7e84f4b": {
+          "id": "d7e84f4b",
+          "path": "columnista.html",
+          "output": "columnista.html",
+          "name": "columnista.html",
           "category": "JUST_WATCH",
           "customOutput": false,
           "imported": false,
           "parents": [],
           "type": "html"
         },
-        "c482ca92": {
-          "id": "c482ca92",
-          "path": "assets/html/contacto.html",
-          "output": "assets/html/contacto.html",
-          "name": "contacto.html",
-          "category": "JUST_WATCH",
-          "customOutput": false,
+        "48f913e7": {
+          "id": "48f913e7",
+          "path": "assets/sass/pages/columnistas.scss",
+          "output": "assets/css/columnista.css",
+          "name": "columnistas.scss",
+          "category": "CSS",
+          "autoCompile": true,
+          "autoprefixer": false,
+          "sourceMaps": false,
+          "libSass": true,
+          "compass": false,
+          "fullCompass": false,
+          "outputStyle": "expanded",
+          "customOutput": true,
           "imported": false,
           "parents": [],
-          "type": "html"
+          "type": "sass"
         },
-        "69f146f0": {
-          "id": "69f146f0",
-          "path": "assets/html/columnistas.html",
-          "output": "assets/html/columnistas.html",
-          "name": "columnistas.html",
-          "category": "JUST_WATCH",
-          "customOutput": false,
+        "101c3405": {
+          "id": "101c3405",
+          "path": "assets/css/columnista.css",
+          "output": "assets/css/columnista.css",
+          "name": "columnista.css",
+          "category": "CSS",
+          "autoCompile": false,
+          "sourceMaps": false,
+          "compress": true,
+          "cssnext": false,
+          "autoprefixer": false,
+          "customOutput": true,
           "imported": false,
           "parents": [],
-          "type": "html"
+          "type": "css"
         },
-        "840553c4": {
-          "id": "840553c4",
-          "path": "assets/html/index.html",
-          "output": "assets/html/index.html",
-          "name": "index.html",
-          "category": "JUST_WATCH",
-          "customOutput": false,
-          "imported": false,
-          "parents": [],
-          "type": "html"
+        "5bda4bb8": {
+          "id": "5bda4bb8",
+          "path": "assets/image/publi-1.jpg",
+          "output": "assets/image/publi-1.jpg",
+          "name": "publi-1.jpg",
+          "category": "IMAGE",
+          "size": 87080,
+          "type": "jpg",
+          "initialSize": 87080,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
+        "96a352d9": {
+          "id": "96a352d9",
+          "path": "assets/image/publi-2.jpg",
+          "output": "assets/image/publi-2.jpg",
+          "name": "publi-2.jpg",
+          "category": "IMAGE",
+          "size": 98075,
+          "type": "jpg",
+          "initialSize": 98075,
+          "optimized": false,
+          "height": 0,
+          "width": 0
+        },
+        "ac63234f": {
+          "id": "ac63234f",
+          "path": "docs/contacto.fw.png",
+          "output": "docs/contacto.fw.png",
+          "name": "contacto.fw.png",
+          "category": "IMAGE",
+          "size": 510170,
+          "type": "png",
+          "initialSize": 510170,
+          "optimized": false,
+          "height": 0,
+          "width": 0
         }
       },
       "deploymentHistory": {},

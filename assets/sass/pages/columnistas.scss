@@ -1,7 +1,68 @@
 @import "../helpers/_variables";
+/*publicidad*/
 .container {
 	width: 950px;
 }
+.publicidad {
+	position: absolute;
+	padding-top: 4%;
+	.banner1{
+		position: fixed;
+		padding-left: 2%
+	}
+	.banner2{
+		position: fixed;
+		right: 2%;
+	}
+}
+/**/
+.boton {
+	text-align: center;
+    padding: 3%;
+	.btn.btn-default {
+		background-color:$red;
+	    color: $white;
+	    font-weight: bold;
+	    padding: 3px 15px;
+	}
+}
+
+.nav {
+	padding: 4px 40px;
+	background-color: $red;
+}
+.nav-pills {
+	li {
+		padding: 10px 15px;
+		a{
+			border-radius: 25px;
+			padding: 6px 15px;
+			color: $white;
+			background-color: $red;
+			font-weight: bold;
+			&:hover {
+				background-color: #D90000;
+			}
+		}
+	}
+}
+.nav-pills {
+	li.active {
+		padding: 10px 15px;
+		a{
+			border-radius: 25px;
+			padding: 6px 15px;
+			color: $white;
+			background-color: #811101;
+			font-weight: bold;
+			&:hover {
+				background-color: #811101;
+			}
+		}
+	}
+}
+
+/*boxes*/
 .bloques {
 	padding: 0 2%;
 }
@@ -58,20 +119,3 @@
 	right: 0px;
 	left: auto;
 }
-/*publicidad*/
-.container {
-	width: 950px;
-}
-.publicidad {
-	position: absolute;
-	padding-top: 4%;
-	.banner1{
-		position: fixed;
-		padding-left: 2%
-	}
-	.banner2{
-		position: fixed;
-		right: 2%;
-	}
-}
-/**/
