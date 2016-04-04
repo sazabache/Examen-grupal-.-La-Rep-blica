@@ -26,11 +26,7 @@
   font-family: "PT Sans";
 }
 
-.title .principal {
-  background-image: url("../../assets/image/img_grid_principal.jpg");
-  height: 84vh;
-  margin: 4.5% 0%;
-  line-height: 40px;
+.title .principal, .title .secundario {
   display: flex;
   align-items: flex-end;
   padding: 2% 12% 2% 4%;
@@ -40,6 +36,13 @@
   box-shadow: inset 0px -73px 103px -5px #1a191a;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.title .principal {
+  background-image: url("../../assets/image/img_grid_principal.jpg");
+  height: 84vh;
+  margin: 4.5% 0%;
+  line-height: 40px;
 }
 
 .title .principal a {
@@ -52,17 +55,8 @@
 .title .secundario {
   background-image: url("../../assets/image/img_grid_secundario.jpg");
   height: 40vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  -webkit-box-shadow: inset 0px -73px 103px -5px #1a191a;
-  -moz-box-shadow: inset 0px -73px 103px -5px #1a191a;
-  box-shadow: inset 0px -73px 103px -5px #1a191a;
   line-height: 28px;
   margin: 4.5% 0%;
-  display: flex;
-  align-items: flex-end;
-  padding: 2% 12% 2% 4%;
-  font-family: "PT Sans";
 }
 
 .title .secundario a {
@@ -162,28 +156,25 @@
   text-shadow: 1px 1px #000;
 }
 
-.destacado .titular .image-1 {
-  background-image: url("../../assets/image/img_especiales.jpg");
+.destacado .titular .image-1, .destacado .titular .image-2, .destacado .titular .image-3, .destacado .titular .image-4 {
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.destacado .titular .image-1 {
+  background-image: url("../../assets/image/img_especiales.jpg");
 }
 
 .destacado .titular .image-2 {
   background-image: url("../../assets/image/img_especiales_aside.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .destacado .titular .image-3 {
   background-image: url("../../assets/image/img_grid_especiales.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .destacado .titular .image-4 {
   background-image: url("../../assets/image/img_video_destacado.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .destacado .last-new-title {
