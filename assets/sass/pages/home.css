@@ -1,0 +1,52 @@
+.red-social .red {
+  margin: 0 3px; }
+.red-social .point {
+  margin: 0 2%; }
+.red-social span, .red-social a {
+  font-size: 0.8em;
+  color: #768596; }
+
+.title {
+  border: 1px solid black; }
+  .title .row .img-publicidad {
+    width: 100%; }
+  .title .row h1 {
+    font-size: 4.5em;
+    font-weight: bold;
+    font-family: "PT Sans"; }
+  .title .principal {
+    background-image: url("../../assets/image/img_grid_principal.jpg");
+    height: 73vh;
+    margin: 4% 0%;
+    display: flex;
+    align-items: flex-end;
+    padding: 4%;
+    -webkit-box-shadow: inset -1px -48px 58px -16px #403d40;
+    -moz-box-shadow: inset -1px -48px 58px -16px #403d40;
+    box-shadow: inset -1px -48px 58px -16px #403d40;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .title .principal a {
+      font-size: 2.5em;
+      color: white;
+      font-weight: bold;
+      text-shadow: 1px 1px #000; }
+  .title .secundario {
+    background-color: red;
+    height: 35vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: inset -1px -48px 58px -16px #403d40;
+    -moz-box-shadow: inset -1px -48px 58px -16px #403d40;
+    box-shadow: inset -1px -48px 58px -16px #403d40;
+    margin: 4% 0%;
+    display: flex;
+    align-items: flex-end;
+    padding: 4%; }
+    .title .secundario a {
+      color: white;
+      font-weight: bold;
+      text-shadow: 1px 1px #000;
+      font-size: 1.8em; }
+
+/*# sourceMappingURL=home.css.map */

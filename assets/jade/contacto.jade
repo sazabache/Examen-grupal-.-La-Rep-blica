@@ -1,4 +1,4 @@
-include mixins
+include mixinsandra
 doctype html
 html(lang='es-PE')
   head
@@ -11,26 +11,26 @@ html(lang='es-PE')
     link(rel='stylesheet', type='text/css', href='assets/css/bootstrap.min.css')
     link(rel='stylesheet', type='text/css', href='assets/css/slick.css')
     link(rel='stylesheet', type='text/css', href='assets/css/slick-theme.css')
-    link(rel='stylesheet', type='text/css', href='assets/css/main.css')
+    link(rel='stylesheet', type='text/css', href='assets/css/contacto.css')
     script(src='http://code.jquery.com/jquery-1.11.2.min.js')
     script(src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
-    script(type='text/javascript', src='js/bootstrap.min.js')
-    script(type='text/javascript', src='js/slick.min.js')
-    script(type='text/javascript', src='js/bootstrap-hover-dropdown.min.js')
-    script(type='text/javascript', src='js/modernizr.custom.68172.js')
-    script(type='text/javascript', src='js/respond.js')
+    script(type='text/javascript', src='assets/js/bootstrap.min.js')
+    script(type='text/javascript', src='assets/js/slick.min.js')
+    script(type='text/javascript', src='assets/js/bootstrap-hover-dropdown.min.js')
+    script(type='text/javascript', src='assets/js/modernizr.custom.68172.js')
+    script(type='text/javascript', src='assets/js/respond.js')
   body
     header
         .header1
             .container
                 .row
                     img(src="./assets/image/banner_top.jpg")
-                    .col-md-6.col-xs-12
+                    .col-md-8.col-xs-12.nopadd
                         ul
                             li LIBERO.PE
                             li ELPOPULAR.PE
                             li FUNDACIÓN GUSTAVO MOHME LLONA
-                    .col-md-6.col-xs-12
+                    .col-md-4.col-xs-12.social
                         ul
                             li.btn-boletin SUSCRÍBETE AL BOLETÍN
                             li
@@ -60,4 +60,60 @@ html(lang='es-PE')
                             em por: Gustavo Mohme Llona
                             img(src="./assets/image/img_editorial_text.jpg")
                             img(src="./assets/image/img_author.jpg")
-                            h1 Saludos
+        .navi
+            .container
+                .row
+                    nav.navbar.navbar-default
+                            .navbar-header
+                                button.navbar-toggle.collapsed(type="button", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1", aria-expanded="false")
+                                    span.sr-only Toggle navigation
+                                    span.icon-bar
+                                    span.icon-bar
+                                    span.icon-bar
+                            .collapse.navbar-collapse#bs-example-navbar-collapse-1
+                                ul.nav.navbar-nav
+                                    li.active
+                                        +menu('#', 'POLÍTICA') 
+                                    li
+                                        +menu('#', 'ECONOMÍA')
+                                    li
+                                        +menu('#', 'SOCIEDAD')
+                                    li
+                                        +menu('#', 'ELECC. REGIONALES') 
+                                    li
+                                        +menu('#', 'DEPORTES') 
+                                    li
+                                        +menu('#', 'CHAMPIONS L.').
+                                    li
+                                        +menu('#', 'ESPECTÁCULOS')
+                                    li
+                                        +menu('#', 'ED. IMPRESA')
+                                    li
+                                        +menu('#', 'REGIONALES')
+                                    li.dropdown
+                                        +menu('#', 'MÁS SECCIONES')
+            .navi2
+                .container
+                    .row.fondo.nav2
+                            .col-md-2
+                                h6 TEMAS DEL DÍA
+                            .col-md-10
+                                div(data-slick='{"slidesToShow": 8, "slidesToScroll": 1}')
+                                  div
+                                    h6 Globos de oro
+                                  div
+                                    h6 Youtube
+                                  div
+                                    h6 PNP
+                                  div
+                                    h6 Charlie Hebdo 
+                                  div
+                                    h6 FC Barcelona
+                                  div
+                                    h6 Alianza Lima
+                                  div
+                                    h6 Balón de Oro
+                                  div
+                                    h6 Alianza Lima
+                                  div
+                                    h6 Balón de Oro
