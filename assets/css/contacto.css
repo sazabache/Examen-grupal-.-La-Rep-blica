@@ -61,12 +61,17 @@ header .header1 {
       border-radius: 4px;
       margin-right: 9px; }
 
+.buscar1 {
+  border-left: 2px ridge rgba(128, 128, 128, 0.25);
+  border-right: 2px ridge rgba(128, 128, 128, 0.25);
+  padding: 0px 4px; }
+
 .nopadd {
   padding-left: 0;
   padding-right: 0; }
 
 .header2 {
-  padding: 25px; }
+  padding: 25px 0px; }
   .header2 .col-md-6 {
     padding-left: 0px; }
     .header2 .col-md-6 img {
@@ -89,7 +94,7 @@ header .header1 {
     .header2 .marco-rojo .dom {
       position: absolute;
       top: -9px;
-      left: 83px;
+      left: 92px;
       background-color: #8C0000;
       color: #fff;
       font-size: 13px;
@@ -160,7 +165,7 @@ header .header1 {
       padding-left: 0px;
       padding-right: 0; }
       .navbar .navbar-collapse .nav li {
-        font-size: 14.6px;
+        font-size: 10.8px;
         -webkit-margin-before: 0;
         -webkit-margin-after: 0;
         -webkit-margin-start: 0px;
@@ -212,6 +217,12 @@ header .header1 {
       width: 100px;
       font-family: "PT Sans";
       font-size: 15px; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #A70D0D; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF; }
 
 .slick-slider {
   margin-bottom: 0px;
@@ -309,7 +320,8 @@ footer {
   text-align: right; }
 
 .optbox {
-  padding: 2px 0px 5px; }
+  padding: 2px 0px 5px;
+  text-align: left; }
 
 .optbox2 {
   padding: 7px 0px 5px; }
@@ -329,13 +341,24 @@ textarea {
   height: 150px; }
 
 section {
-  font-family: "PT Sans"; }
-  section .row {
-    margin-right: 0; }
+  font-family: "PT Sans";
+  padding-bottom: 50px; }
 
 label {
   font-weight: 400;
   font-size: 15px; }
+
+.enviar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 20px; }
+  .enviar input {
+    background-color: black;
+    color: white;
+    padding: 5px 70px;
+    border: none;
+    border-radius: 4px; }
 
 @media \0screen\,screen\9 {
   .custom-radio,
