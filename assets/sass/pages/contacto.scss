@@ -160,3 +160,18 @@ input[type="radio"]#input-uno:checked{
 		}
 	}
 }
+/*publicidad*/
+
+.publicidad {
+	position: absolute;
+	top: 20%;
+	.banner1{
+		position: fixed;
+		padding-left: 2%
+	}
+	.banner2{
+		position: fixed;
+		right: 2%;
+	}
+}
+/**/

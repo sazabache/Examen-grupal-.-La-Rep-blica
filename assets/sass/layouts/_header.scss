@@ -256,13 +256,13 @@ header{
     .nopadd2{
 	    padding-right: 27px;
 	    padding-left: 0px;
+	    font-family: $titulo1;
 	    .navigator1{
 			background-color: black;
 		    padding: 1px;
 		    border-radius: 7px 0px 0px 7px;
 		    text-align: center;
 		    color: white;
-		    font-family: $titulo2;
 		    h5{
 		    	font-family: 25px !important;
 		    }
@@ -285,37 +285,39 @@ header{
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
 }
-.slick-slider {
-    margin-bottom: 0px;
-    text-align: center;
-    padding-top: 10px;
-    div::after{
-    	color: #1f1f1f;
-	    position: absolute;
-	    top: 50%;
-	    right: 0;
-	    height: 1px;
-	    vertical-align: top;
-	    line-height: 1px;
-    }
-    div::after{
-		content: "\2022";
-	    color: #768696;
-	    font-size: 23px;
-	    position: relative;
-	    top: -33px;
-	    right: -48px;
-   }
-   h6{
-    color: #1f1f1f;
-    display: block;
-    height: 40px;
-    margin: 0;
-   }
-   .slick-list{
-   		height: 19px;
-   }
-   .slick-track{
-		height: 27px;
+header{
+	.slick-slider {
+	    margin-bottom: 0px;
+	    text-align: center;
+	    padding-top: 10px;
+	    div::after{
+	    	color: #1f1f1f;
+		    position: absolute;
+		    top: 50%;
+		    right: 0;
+		    height: 1px;
+		    vertical-align: top;
+		    line-height: 1px;
+	    }
+	    div::after{
+			content: "\2022";
+		    color: #768696;
+		    font-size: 23px;
+		    position: relative;
+		    top: -33px;
+		    right: -48px;
+	   }
+	   h6{
+	    color: #1f1f1f;
+	    display: block;
+	    height: 40px;
+	    margin: 0;
+	   }
+	   .slick-list{
+	   		height: 19px;
+	   }
+	   .slick-track{
+			height: 27px;
+		}
 	}
 }

@@ -286,7 +286,6 @@ header .header1 .social .btn-boletin {
 .nav2 .nopadd2 {
   padding-right: 27px;
   padding-left: 0px;
-  font-family: "PT Sans";
 }
 
 .nav2 .nopadd2 .navigator1 {
@@ -295,6 +294,7 @@ header .header1 .social .btn-boletin {
   border-radius: 7px 0px 0px 7px;
   text-align: center;
   color: white;
+  font-family: "Oswald";
 }
 
 .nav2 .nopadd2 .navigator1 h5 {
@@ -320,13 +320,13 @@ header .header1 .social .btn-boletin {
   background-color: #FFF;
 }
 
-header .slick-slider {
+.slick-slider {
   margin-bottom: 0px;
   text-align: center;
   padding-top: 10px;
 }
 
-header .slick-slider div::after {
+.slick-slider div::after {
   color: #1f1f1f;
   position: absolute;
   top: 50%;
@@ -336,7 +336,7 @@ header .slick-slider div::after {
   line-height: 1px;
 }
 
-header .slick-slider div::after {
+.slick-slider div::after {
   content: "\2022";
   color: #768696;
   font-size: 23px;
@@ -345,18 +345,18 @@ header .slick-slider div::after {
   right: -48px;
 }
 
-header .slick-slider h6 {
+.slick-slider h6 {
   color: #1f1f1f;
   display: block;
   height: 40px;
   margin: 0;
 }
 
-header .slick-slider .slick-list {
+.slick-slider .slick-list {
   height: 19px;
 }
 
-header .slick-slider .slick-track {
+.slick-slider .slick-track {
   height: 27px;
 }
 
@@ -437,25 +437,8 @@ a:hover {
   text-decoration: none;
 }
 
-/*publicidad*/
-.publicidad {
-  position: absolute;
-  top: 20%;
-}
-
-.publicidad .banner1 {
-  position: fixed;
-  padding-left: 2%;
-}
-
-.publicidad .banner2 {
-  position: fixed;
-  right: 2%;
-}
-
-/**/
 .title .first-title {
-  margin-top: 2%;
+  padding: 0 15px;
 }
 
 .title .first-title h1 {
@@ -477,7 +460,6 @@ a:hover {
 }
 
 .title .principal {
-  background-position: center;
   background-image: url("../../assets/image/img_grid_principal.jpg");
   height: 84vh;
   margin: 4.5% 0%;

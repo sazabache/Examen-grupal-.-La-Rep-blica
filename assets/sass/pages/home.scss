@@ -1,5 +1,7 @@
 @import "../helpers/_variables";
 @import "../helpers/_mixinmilu";
+@import "../layouts/_header";
+@import "../layouts/_footer";
 .image-width{
 	width: 100%;
 }
@@ -19,9 +21,24 @@ a{
 		text-decoration: none;
 	}
 }
+/*publicidad*/
+
+.publicidad {
+	position: absolute;
+	top: 20%;
+	.banner1{
+		position: fixed;
+		padding-left: 2%
+	}
+	.banner2{
+		position: fixed;
+		right: 2%;
+	}
+}
+/**/
 .title{
 	.first-title{
-		padding: 0 15px;
+		margin-top: 2%;
 		h1{
 			font-size: 4.5em;
 			font-weight: bold;
@@ -34,6 +51,7 @@ a{
 		@include background;
 	}
 	.principal{
+		background-position: center;
 		background-image: url("../../assets/image/img_grid_principal.jpg");
 		height: 84vh;	
 		margin: 4.5% 0%;

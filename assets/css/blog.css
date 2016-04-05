@@ -415,164 +415,96 @@ footer .bck-gris:nth-child(2) {
   border-right: 3px ridge rgba(255, 255, 255, 0.41);
 }
 
-.texto1 h1 {
-  font-family: 'PT sans';
-  font-size: 62px;
-  font-weight: 700;
-  padding: 15px 0px;
-  text-align: center;
+.container .butitulo {
+  padding-left: 1%;
 }
 
-.texto1 p {
-  font-family: 'PT sans';
-  font-size: 18.1px;
-}
-
-.inputs1 .inputholder {
-  width: 100%;
-  background-color: #EEEEEE;
-  border-radius: 6px;
-  padding: 7px 6px;
-  margin: 13px 2px;
+.titulow h1 {
   font-family: "PT Sans";
-  font-size: 16px;
-  border-left: 2px solid rgba(204, 204, 204, 0.8);
+  font-weight: bold;
 }
 
-.inputs1 .col-md-6 {
-  padding-right: 0px;
-  padding-left: 0px;
+.titulow h5.butitulo {
+  font-family: "Oswald";
+  color: #667885;
 }
 
-.inputs1 .col-md-6 input {
-  display: inline-block;
+.bloques {
+  padding: 0 2%;
 }
 
-.inputs1 h3 {
-  font-weight: 700;
+.borde {
+  border: 2px solid #F2F2F2;
+  padding: 10px;
+  margin-bottom: 5%;
 }
 
-.ejem {
-  text-align: right;
-}
-
-.optbox {
-  padding: 2px 0px 5px;
-  text-align: left;
-}
-
-.optbox2 {
-  padding: 7px 0px 5px;
-}
-
-textarea {
-  width: 100%;
-  background-color: #EEEEEE;
-  border-radius: 6px;
-  padding: 7px 6px;
-  margin: 13px 2px;
+.borde .tema {
+  padding: 10% 0 0%;
+  height: 110px;
   font-family: "PT Sans";
-  font-size: 16px;
-  border-left: 2px solid rgba(204, 204, 204, 0.8);
-  border-top: 2px ridge rgba(179, 179, 179, 0.62);
-  border-right: 0px;
-  border-bottom: 0px;
-  height: 150px;
 }
 
-section {
+.borde .tema h4 {
+  font-weight: bold;
+}
+
+.fond-gris {
+  background-color: #F2F2F2;
+  padding: 20px 13px;
+}
+
+.fond-gris .media-body h6 {
   font-family: "PT Sans";
-  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 13px;
 }
 
-label {
-  font-weight: 400;
-  font-size: 15px;
+.fond-gris .media-body h5 {
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: "PT Sans";
+  color: #667885;
 }
 
-.enviar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0px 20px;
+.fond-gris img {
+  margin-bottom: 0px;
 }
 
-.enviar input {
-  background-color: black;
-  color: white;
-  padding: 5px 70px;
-  border: none;
-  border-radius: 4px;
+.fond-gris img .thumbnail {
+  border-radius: 0px;
 }
 
-@media \0screen\,screen\9 {
-  .custom-radio,
-  .custom-checkbox {
-    clip: auto;
-    position: static;
-  }
-  .custom-radio + label,
-  .custom-checkbox + label {
-    padding-left: 0;
-  }
-  .custom-radio + label:before,
-  .custom-checkbox + label:before {
-    display: none;
-  }
+.box {
+  position: relative;
+  z-index: 10;
 }
 
-input[type="radio"] {
-  appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  border: 1px solid #c8c6c6;
-  width: 15px;
-  height: 15px;
-  border-radius: 10px;
-  margin: 0 5px 0 0;
-  background-image: -webkit-gradient(linear, 34% 15%, 35% 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
+.box:before, .box:after {
+  position: absolute;
+  content: "";
+  bottom: 8px;
+  left: 0px;
+  top: 82%;
+  width: 53%;
+  background: #777;
+  box-shadow: 0 7px 6px #777;
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  z-index: -1;
 }
 
-input[type="radio"]#input-uno:checked {
-  background: #BA1414;
-  border: 4px outset #fff;
-}
-
-@media (max-width: 767px) {
-  .col-xs-12 {
-    text-align: center;
-  }
-  .border-right {
-    border-right: 0px ridge rgba(255, 255, 255, 0.41);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .cont-footer {
-    padding: 25px 5px 50px !important;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .border-right {
-    border-right: 0px ridge rgba(255, 255, 255, 0.41);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .cont-footer {
-    padding: 25px 5px 50px !important;
-  }
-  .header2 {
-    padding: 25px;
-  }
-  .header2 .col-md-6 {
-    padding-left: 0px;
-  }
-  .header2 .col-md-6 img {
-    padding: 14px 0px;
-    width: 100%;
-  }
+.box:after {
+  transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  right: 0px;
+  left: auto;
 }
 
 /*publicidad*/

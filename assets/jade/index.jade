@@ -3,7 +3,6 @@ doctype html
 html(lang='es-PE')
     head
         meta(charset='UTF-8')
-        meta(name="viewport" content="width=device-width, initial-scale=1")
         title Home
         link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
         link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
@@ -12,7 +11,6 @@ html(lang='es-PE')
         link(rel='stylesheet', type='text/css', href='assets/css/slick.css')
         link(rel='stylesheet', type='text/css', href='assets/css/slick-theme.css')
         link(rel='stylesheet', type='text/css', href='assets/css/home.css')
-
         script(src='http://code.jquery.com/jquery-1.11.2.min.js')
         script(src='http://code.jquery.com/jquery-migrate-1.2.1.min.js')
         script(type='text/javascript', src='assets/js/bootstrap.min.js')
@@ -23,7 +21,31 @@ html(lang='es-PE')
         script(type='text/javascript', src='assets/js/home.js')
    
     body
+        header
+            include header1
+            .header2
+                .container
+                    .row
+                        .col-md-4.col-sm-4.col-xs-12
+                            a(href="#")
+                                img(src="./assets/image/logo-la-republica.jpg")
+                        .col-md-4.col-sm-4.hidden-xs
+                            a(href="#") 
+                                +mgris
+                        .col-md-4.col-sm-4.hidden-xs
+                            a(href="#")
+                                .marco-gris
+                                    h3 La corrupción, los orígenes
+                                    p por: Gustavo Mohme Llona
+                                    img.im1(src="./assets/image/img_editorial_text.jpg")
+                                    img.im2(src="./assets/image/img_author.jpg")
+            include nav
         include mixinmilu.jade
+        section.publicidad
+            .banner1.hidden-xs.hidden-sm
+                img(src="assets/image/publi-1.jpg", alt="")
+            .banner2.hidden-xs.hidden-sm
+                img(src="assets/image/publi-2.jpg", alt="")
         section.title
             .container
                 .row.first-title
@@ -251,4 +273,5 @@ html(lang='es-PE')
                                 p.text-left ¿Está permitido que dejen su auto en reiteradas ocasiones toda la noche en la puerta de tu casa? Placa DG6232, eso que antes lo dejaba entre la vereda y mi puerta.
                             button.btn-red.btn.btn-default(type="submit") ENVIAR FOTOS
                             a.enlace-red(href="#") Más fotos
+    include footer
 
