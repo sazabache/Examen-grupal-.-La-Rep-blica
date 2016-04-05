@@ -44,9 +44,11 @@
 	}
 }
 /*van rojo*/
-.nav {
-	padding: 4px 40px;
-	background-color: $red;
+section{
+	.nav {
+		padding: 4px 40px;
+		background-color: $red;
+	}
 }
 .nav-pills {
 	li {

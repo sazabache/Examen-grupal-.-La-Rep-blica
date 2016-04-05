@@ -220,24 +220,24 @@ header .header1 .social .btn-boletin {
   top: -8px;
 }
 
-.navbar {
+header .navbar {
   min-height: 31px;
   background-color: #BA1414;
   border-radius: 7px;
   font-family: "PT Sans";
 }
 
-.navbar .navbar-collapse {
+header .navbar .navbar-collapse {
   padding-right: 0;
   padding-left: 0;
 }
 
-.navbar .navbar-collapse .nav {
-  padding-left: 0px;
-  padding-right: 0;
+header .navbar .navbar-collapse .nav {
+  padding-left: 0px !important;
+  padding-right: 0 !important;
 }
 
-.navbar .navbar-collapse .nav li {
+header .navbar .navbar-collapse .nav li {
   font-size: 10.8px;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -247,20 +247,20 @@ header .header1 .social .btn-boletin {
   border-left: 1px outset rgba(142, 0, 0, 0.87);
 }
 
-.navbar .navbar-collapse .nav li:first-child {
+header .navbar .navbar-collapse .nav li:first-child {
   border-left: 0px outset rgba(142, 0, 0, 0.87) !important;
 }
 
-.navbar .navbar-collapse .nav li a {
+header .navbar .navbar-collapse .nav li a {
   padding: 10px 14px;
   color: white;
 }
 
-.navbar .navbar-collapse .navbar-nav {
+header .navbar .navbar-collapse .navbar-nav {
   margin: 0px 0px;
 }
 
-.navbar .navbar-collapse .navbar-nav a {
+header .navbar .navbar-collapse .navbar-nav a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 12px;
@@ -277,19 +277,19 @@ header .header1 .social .btn-boletin {
   color: white;
 }
 
-.nav2 {
+header .nav2 {
   background-color: #F2F2F2;
   border-radius: 7px;
   padding: 0px 26px 0px 0px;
 }
 
-.nav2 .nopadd2 {
+header .nav2 .nopadd2 {
   padding-right: 27px;
   padding-left: 0px;
   font-family: "PT Sans";
 }
 
-.nav2 .nopadd2 .navigator1 {
+header .nav2 .nopadd2 .navigator1 {
   background-color: black;
   padding: 1px;
   border-radius: 7px 0px 0px 7px;
@@ -297,26 +297,26 @@ header .header1 .social .btn-boletin {
   color: white;
 }
 
-.nav2 .nopadd2 .navigator1 h5 {
+header .nav2 .nopadd2 .navigator1 h5 {
   font-family: 25px !important;
 }
 
-.nav2 .navigator2 {
+header .nav2 .navigator2 {
   padding-left: 0px;
 }
 
-.nav2 .navigator2 h6 {
+header .nav2 .navigator2 h6 {
   padding: 0;
   width: 100px;
   font-family: "PT Sans";
   font-size: 15px;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+header .navbar-default .navbar-toggle:focus, header .navbar-default .navbar-toggle:hover {
   background-color: #A70D0D;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+header .navbar-default .navbar-toggle .icon-bar {
   background-color: #FFF;
 }
 
@@ -413,6 +413,43 @@ footer .bck-gris:nth-child(2) {
 
 .border-right {
   border-right: 3px ridge rgba(255, 255, 255, 0.41);
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    text-align: center;
+  }
+  .border-right {
+    border-right: 0px ridge rgba(255, 255, 255, 0.41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont-footer {
+    padding: 25px 5px 50px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .border-right {
+    border-right: 0px ridge rgba(255, 255, 255, 0.41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont-footer {
+    padding: 25px 5px 50px !important;
+  }
+  .header2 {
+    padding: 25px;
+  }
+  .header2 .col-md-6 {
+    padding-left: 0px;
+  }
+  .header2 .col-md-6 img {
+    padding: 14px 0px;
+    width: 100%;
+  }
 }
 
 .texto1 h1 {
@@ -536,43 +573,6 @@ input[type="radio"] {
 input[type="radio"]#input-uno:checked {
   background: #BA1414;
   border: 4px outset #fff;
-}
-
-@media (max-width: 767px) {
-  .col-xs-12 {
-    text-align: center;
-  }
-  .border-right {
-    border-right: 0px ridge rgba(255, 255, 255, 0.41);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .cont-footer {
-    padding: 25px 5px 50px !important;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .border-right {
-    border-right: 0px ridge rgba(255, 255, 255, 0.41);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .cont-footer {
-    padding: 25px 5px 50px !important;
-  }
-  .header2 {
-    padding: 25px;
-  }
-  .header2 .col-md-6 {
-    padding-left: 0px;
-  }
-  .header2 .col-md-6 img {
-    padding: 14px 0px;
-    width: 100%;
-  }
 }
 
 /*publicidad*/
