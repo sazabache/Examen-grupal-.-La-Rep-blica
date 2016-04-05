@@ -3,7 +3,8 @@ doctype html
 html(lang='es-PE')
   head
     meta(charset='UTF-8')
-    title Home
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Blogs
     link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
     link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.min.css')
@@ -19,6 +20,9 @@ html(lang='es-PE')
     script(type='text/javascript', src='js/modernizr.custom.68172.js')
     script(type='text/javascript', src='js/respond.js')
   body
+    //header
+        include header1
+        include nav//
     include mixinsol.jade
     section.publicidad
         .banner1
@@ -28,9 +32,9 @@ html(lang='es-PE')
     section.blog
         .container-fluid
             .container
-                .row
-                    h1.titulo Blogs
-                    h5 LO ÚLTIMO EN BLOG
+                .row.titulow
+                    h1 Blogs
+                    h5.butitulo LO ÚLTIMO EN BLOG 
                         img(src="assets/image/double-arrow-bottom.png", alt="")
                 .row.bloques
                     +articulos

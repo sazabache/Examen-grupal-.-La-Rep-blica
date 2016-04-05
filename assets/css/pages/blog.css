@@ -2,20 +2,6 @@
   width: 950px;
 }
 
-.container .butitulo {
-  padding-left: 1%;
-}
-
-.titulow h1 {
-  font-family: "PT Sans";
-  font-weight: bold;
-}
-
-.titulow h5.butitulo {
-  font-family: "Oswald";
-  color: #667885;
-}
-
 .bloques {
   padding: 0 2%;
 }
@@ -29,29 +15,15 @@
 .borde .tema {
   padding: 10% 0 0%;
   height: 110px;
-  font-family: "PT Sans";
 }
 
-.borde .tema h4 {
+.borde .tema h5 {
   font-weight: bold;
 }
 
 .fond-gris {
   background-color: #F2F2F2;
   padding: 20px 13px;
-}
-
-.fond-gris .media-body h6 {
-  font-family: "PT Sans";
-  font-weight: bold;
-  font-size: 13px;
-}
-
-.fond-gris .media-body h5 {
-  font-weight: bold;
-  font-size: 1.2em;
-  font-family: "PT Sans";
-  color: #667885;
 }
 
 .fond-gris img {

@@ -4,6 +4,7 @@ html(lang='es-PE')
   head
     meta(charset='UTF-8')
     title Home
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
     link(href='http://fonts.googleapis.com/css?family=PT+Sans:400,700', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Oswald:400,700', rel='stylesheet', type='text/css')
     link(rel='stylesheet', type='text/css', href='assets/css/font-awesome.min.css')
@@ -28,9 +29,9 @@ html(lang='es-PE')
     section.blog
         .container-fluid
             .container
-                .row
-                    h1.titulo Columnista
-                    h5 LO ÚLTIMO EN COLUMNISTA
+                .row.titulow
+                    h1 Columnista
+                    h5.butitulo LO ÚLTIMO EN COLUMNISTA
                         img(src="assets/image/double-arrow-bottom.png", alt="")
                 .row
                     +recuadro
@@ -45,7 +46,7 @@ html(lang='es-PE')
                             a(href='#') TODOS
                         +list("ABEC","DEF","GHI","JKL")
                         +list("MNO","PQRS","TUV","WXYZ")
-                .row
+                .row.todos
                     +filasmedia
                     +filasmedia
                     +filasmedia

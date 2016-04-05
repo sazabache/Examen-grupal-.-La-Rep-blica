@@ -1,5 +1,5 @@
 mixin profesional(article,imagen,title)
-	.col-md-4
+	.col-md-4.col-xs-12 
 		.borde
 				.tema.text-center
 					span Lunes,14 de julio de 2015
@@ -32,7 +32,7 @@ mixin list (letras1, letras2, letras3, letras4)
 		a(href='#')= letras4
 
 mixin media (imagen,nombre,title)
-		.col-md-3
+		.col-md-3.bord
 			.fond-gris.media
 				.media-left.media-middle
 					.box
@@ -42,12 +42,12 @@ mixin media (imagen,nombre,title)
 					h6.media-heading=nombre
 					h5=title
 mixin filasmedia
-	.row
+	.row.personas
 		+media("assets/image/blog_avatar_01.jpg","Framcisco Durand","Tiro al blanco")
 		+media("assets/image/img_author_columnista.jpg","Humberto","Cristal de Mira")
 		+media("assets/image/img_blogueros.jpg","Javier Agreda","Jaque perpetuo")
 		+media("assets/image/img_author_columnista.jpg","Javier Agreda","Jaque perpetuo")
-	.row
+	.row.personas
 		+media("assets/image/blog_avatar_01.jpg","Framcisco Durand","Delito de Opinion")
 		+media("assets/image/img_author_columnista.jpg","Humberto","Actualidad Economica-Oscar Dancourt")
 		+media("assets/image/img_blogueros.jpg","Javier Agreda","Mirada extrema")

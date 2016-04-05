@@ -3,6 +3,20 @@
   width: 950px;
 }
 
+.container .butitulo {
+  padding-left: 1%;
+}
+
+.titulow h1 {
+  font-family: "PT Sans";
+  font-weight: bold;
+}
+
+.titulow h5.butitulo {
+  font-family: "Oswald";
+  color: #667885;
+}
+
 .publicidad {
   position: absolute;
   padding-top: 4%;
@@ -31,6 +45,7 @@
   padding: 3px 15px;
 }
 
+/*van rojo*/
 .nav {
   padding: 4px 40px;
   background-color: #AA1801;
@@ -82,15 +97,29 @@
 .borde .tema {
   padding: 10% 0 0%;
   height: 110px;
+  font-family: "PT Sans";
 }
 
-.borde .tema h5 {
+.borde .tema h4 {
   font-weight: bold;
 }
 
 .fond-gris {
   background-color: #F2F2F2;
   padding: 20px 13px;
+}
+
+.fond-gris .media-body h6 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.fond-gris .media-body h5 {
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: "PT Sans";
+  color: #667885;
 }
 
 .fond-gris img {
@@ -131,4 +160,35 @@
   -o-transform: rotate(15deg);
   right: 0px;
   left: auto;
+}
+
+/*todos los columnistas*/
+.todos {
+  padding-top: 2%;
+}
+
+.todos .personas {
+  padding: 1% 1.3% 0%;
+}
+
+.bord {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.bord .media-body {
+  padding-bottom: 0px;
+}
+
+.bord .media-body h6 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.bord .media-body h5 {
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: "PT Sans";
+  color: #667885;
 }

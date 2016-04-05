@@ -1,21 +1,74 @@
+/*publicidad*/
 .container {
   width: 950px;
 }
 
-.container .butitulo {
-  padding-left: 1%;
+.publicidad {
+  position: absolute;
+  padding-top: 4%;
 }
 
-.titulow h1 {
-  font-family: "PT Sans";
+.publicidad .banner1 {
+  position: fixed;
+  padding-left: 2%;
+}
+
+.publicidad .banner2 {
+  position: fixed;
+  right: 2%;
+}
+
+/**/
+.boton {
+  text-align: center;
+  padding: 3%;
+}
+
+.boton .btn.btn-default {
+  background-color: #AA1801;
+  color: #fff;
+  font-weight: bold;
+  padding: 3px 15px;
+}
+
+.nav {
+  padding: 4px 40px;
+  background-color: #AA1801;
+}
+
+.nav-pills li {
+  padding: 10px 15px;
+}
+
+.nav-pills li a {
+  border-radius: 25px;
+  padding: 6px 15px;
+  color: #fff;
+  background-color: #AA1801;
   font-weight: bold;
 }
 
-.titulow h5.butitulo {
-  font-family: "Oswald";
-  color: #667885;
+.nav-pills li a:hover {
+  background-color: #D90000;
 }
 
+.nav-pills li.active {
+  padding: 10px 15px;
+}
+
+.nav-pills li.active a {
+  border-radius: 25px;
+  padding: 6px 15px;
+  color: #fff;
+  background-color: #811101;
+  font-weight: bold;
+}
+
+.nav-pills li.active a:hover {
+  background-color: #811101;
+}
+
+/*boxes*/
 .bloques {
   padding: 0 2%;
 }
@@ -29,29 +82,15 @@
 .borde .tema {
   padding: 10% 0 0%;
   height: 110px;
-  font-family: "PT Sans";
 }
 
-.borde .tema h4 {
+.borde .tema h5 {
   font-weight: bold;
 }
 
 .fond-gris {
   background-color: #F2F2F2;
   padding: 20px 13px;
-}
-
-.fond-gris .media-body h6 {
-  font-family: "PT Sans";
-  font-weight: bold;
-  font-size: 13px;
-}
-
-.fond-gris .media-body h5 {
-  font-weight: bold;
-  font-size: 1.2em;
-  font-family: "PT Sans";
-  color: #667885;
 }
 
 .fond-gris img {
@@ -93,25 +132,3 @@
   right: 0px;
   left: auto;
 }
-
-/*publicidad*/
-.container {
-  width: 950px;
-}
-
-.publicidad {
-  position: absolute;
-  padding-top: 4%;
-}
-
-.publicidad .banner1 {
-  position: fixed;
-  padding-left: 2%;
-}
-
-.publicidad .banner2 {
-  position: fixed;
-  right: 2%;
-}
-
-/**/
